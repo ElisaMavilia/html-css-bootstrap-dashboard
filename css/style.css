@@ -19,10 +19,24 @@
     background-color: var(--color-white);
     height: 100vh;
 }
-
+/* header */
 .header-content{
     height: 80px;
-   
+}
+
+header{
+    background-color: var(--color-gray);
+}
+
+.content-left,
+.content-right{
+    width: 10%;
+    height: 60px;
+}
+
+.content-left img{
+    display: block;
+    width: 100%;
 }
 
 #sidebar{
@@ -36,6 +50,7 @@ main{
     margin-top: 150px;
     overflow-y: scroll;
 }
+
 
 .title{
     background-color: var(--color-gray);

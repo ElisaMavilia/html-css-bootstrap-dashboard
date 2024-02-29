@@ -21,12 +21,17 @@
 <body>
     <!-- header -->
     <header class="position-fixed top-0 left-0 w-100 py-2 bg-light em-debug">
-        <div class="header-content w-100 bg-white">
+        <div class="header-content w-100 bg-white d-flex align-content-center align-items-center justify-content-between  ps-3 ">
+            <div class="content-left em-debug">
+                <img src="img/logo.svg" alt="Logo Boolean">
+            </div>
+            <div class="content-center em-debug">center</div>
+            <div class="content-rigth em-debug">right</div>
         </div>
     </header>
     <div class="em-wrapper vh-100 w-100 d-flex">
         <!-- sidebar -->
-        <div id="sidebar" class="em-debug">sidebar</div>
+        <div id="sidebar" class="em-debug bg-black">sidebar</div>
         <!-- main section -->
         <main>
             <div class="container-fluid h-100">
@@ -34,9 +39,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <!-- first element: hoverable table Prossime classi -->
-                      
                             <h2 class="ps-3 pb-3 pt-2 bg-body-secondary mb-0">Prossime Classi</h2>
-                            <table class="table">
+                            <table class="table table-hover">
                                 <thead>
                                   <tr>
                                     <th scope="col">Nome</th>
