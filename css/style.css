@@ -1,0 +1,36 @@
+:
+:root {
+	--color-top-bar: #1b72e8;
+	--color-green: #198754;
+	--color-yellow: #ffc107;
+	--color-red: #dc3545;
+	--color-gray: #6c757d;
+	--color-left-bar: #051e34;
+	--color-white: #ffffff;
+}
+
+/* debug */
+.em-debug{
+    border: 1px solid red;
+}
+
+/* container */
+.em-wrapper{
+    background-color: var(--color-white);
+    height: 100vh;
+}
+
+.header-content{
+    height: 80px;
+}
+
+#sidebar{
+    width: 200px;
+    background-color: var(--color-left-bar);
+    padding-top: ;
+}
+
+main{
+    width: calc(100% - 200px);
+    margin-top: 100px;
+}
