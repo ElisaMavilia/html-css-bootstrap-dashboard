@@ -28,9 +28,20 @@ header{
     background-color: var(--color-gray);
 }
 
-.content-left,
+.content-left,.content-right{
+    width: 200px;
+}
+
 .content-right{
-    width: 180px;
+   margin-right: 20px;
+}
+
+.dropdown-menu li a{
+    font-size: 0.8em;
+}
+
+.fa-bell{
+    color: #fd7e14;;
 }
 
 .content-center{
@@ -42,6 +53,22 @@ header{
 .content-left img{
     display: block;
     width: 100%;
+}
+
+.fa-list,.fa-ellipsis-vertical,#mark{
+    cursor: pointer;
+}
+
+.fa-question{
+    font-size: 0.7em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mark{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 
 /* sidebar */
