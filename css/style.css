@@ -76,8 +76,22 @@ header{
 #sidebar{
     width: 200px;
     background-color: var(--color-left-bar);
-    padding-top: ;
+    padding-top: 125px;
 }
+
+.fa-house,.fa-chart-simple,.fa-signal,.fa-gear{
+    font-size: 1.5em;
+}
+
+
+#sidebar ul li{
+    list-style: none;
+}
+
+#sidebar ul a{
+    text-decoration: none;
+}
+
 /* main */
 main{
     width: calc(100% - 200px);
