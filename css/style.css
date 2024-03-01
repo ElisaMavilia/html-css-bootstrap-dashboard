@@ -54,6 +54,11 @@ tbody tr td img{
     width: 30px;
     padding-right: 5px;
 }
+
+table tr th:first-child{
+    width: 60%;
+}
+
 /* 
 tr th:nth-child(1){
     text-align: center;
