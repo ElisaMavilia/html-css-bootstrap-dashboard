@@ -30,14 +30,21 @@ header{
 
 .content-left,
 .content-right{
-    width: 10%;
-    height: 60px;
+    width: 180px;
+}
+
+.content-center{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .content-left img{
     display: block;
     width: 100%;
 }
+
+/* sidebar */
 
 #sidebar{
     width: 200px;
@@ -52,18 +59,19 @@ header{
 
 tbody tr td img{
     width: 30px;
-    padding-right: 5px;
+   border-radius: 50%;
 }
 
 table tr th:first-child{
     width: 60%;
 }
 
-/* 
-tr th:nth-child(1){
+
+table tr th:not(:nth-child(1)),
+table tr td:not(:nth-child(1)){
     text-align: center;
 }
- */
+ 
 main{
     width: calc(100% - 200px);
     margin-top: 150px;
