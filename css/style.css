@@ -44,7 +44,21 @@ header{
     background-color: var(--color-left-bar);
     padding-top: ;
 }
+/* main */
 
+#em-table{
+    font-size: 0.8rem;
+}
+
+tbody tr td img{
+    width: 30px;
+    padding-right: 5px;
+}
+/* 
+tr th:nth-child(1){
+    text-align: center;
+}
+ */
 main{
     width: calc(100% - 200px);
     margin-top: 150px;
