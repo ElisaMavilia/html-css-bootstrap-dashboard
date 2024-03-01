@@ -94,6 +94,14 @@ main{
     background-color: #175bba;
 }
 
+.entity{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    vertical-align: top;
+}
+
 .btn-plus{
     border: 1px solid white;
 }
