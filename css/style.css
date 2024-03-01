@@ -90,6 +90,14 @@ main{
    width: 100%;
 }
 
+.btn-blue-container{
+    background-color: #175bba;
+}
+
+.btn-plus{
+    border: 1px solid white;
+}
+
 #em-table{
     font-size: 0.8rem;
 }
