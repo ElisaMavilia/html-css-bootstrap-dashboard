@@ -79,6 +79,16 @@ header{
     padding-top: ;
 }
 /* main */
+main{
+    width: calc(100% - 200px);
+    margin-top: 99px;
+    overflow-y: scroll;
+}
+
+#blue-div{
+   overflow: auto;
+   width: 100%;
+}
 
 #em-table{
     font-size: 0.8rem;
@@ -99,11 +109,6 @@ table tr td:not(:nth-child(1)){
     text-align: center;
 }
  
-main{
-    width: calc(100% - 200px);
-    margin-top: 150px;
-    overflow-y: scroll;
-}
 
 
 .title{
