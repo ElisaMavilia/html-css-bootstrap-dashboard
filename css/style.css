@@ -55,7 +55,7 @@ header{
     width: 100%;
 }
 
-.fa-list,.fa-ellipsis-vertical,#mark{
+.fa-list,.fa-ellipsis-vertical,#mark,.fa-bell{
     cursor: pointer;
 }
 
@@ -151,10 +151,10 @@ table tr td:not(:nth-child(1)){
     text-align: center;
 }
  
-
-
 .title{
     background-color: var(--color-gray);
 }
 
-
+@media screen and (max-width:748px){
+    
+}
