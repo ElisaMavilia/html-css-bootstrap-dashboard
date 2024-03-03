@@ -155,6 +155,11 @@ table tr td:not(:nth-child(1)){
     background-color: var(--color-gray);
 }
 
-@media screen and (max-width:748px){
-    
+@media screen and (max-width:768px){
+    #sidebar{
+        width: 90px;
+    }
+    #small-logo{
+        width: 60%;
+    }
 }
