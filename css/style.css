@@ -221,7 +221,17 @@ table tr td:not(:nth-child(1)){
     .text-in-middle{
         padding-left: 15px;
     }
+
+    .no-show{
+        display: none;
+    }
     
+    .box-sections{
+        width: 100%;
+    }
+
+
+
 }
 
 
