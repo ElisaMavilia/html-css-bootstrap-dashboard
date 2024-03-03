@@ -162,4 +162,17 @@ table tr td:not(:nth-child(1)){
     #small-logo{
         width: 60%;
     }
+
+    .text-right{
+        display: flex;
+    }
+
+    #sidebar ul li span{
+        display: none;
+    }
+
+    .btn-none{
+        display: none;
+    }
+    
 }
