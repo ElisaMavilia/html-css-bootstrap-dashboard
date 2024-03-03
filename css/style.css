@@ -175,6 +175,41 @@ table tr td:not(:nth-child(1)){
     #big-logo{
         display: none; 
     }
+
+    #sidebar ul li span{
+        display: none;
+    
+    }
+
+    .row div .text-blue .btn-none{
+        display: none;
+    }
+
+    .text-right{
+        display: flex;
+    }
+
+    .text-in-middle{
+        margin-left: -60px;
+    }
+
+    #new-student{
+        font-size: 0.9em;
+    }
+
+    #btn-plus{
+        margin-bottom: auto;
+        margin-top: 6px;
+    }
+
+    #box-card{
+    width: 100%;
+    }
+
+    .box-sections{
+        width: 770px;
+    }
+
 }
 
 @media screen and (max-width:768px){
@@ -183,12 +218,8 @@ table tr td:not(:nth-child(1)){
         display: flex;
     }
 
-    #sidebar ul li span{
-        display: none;
-    }
-
-    .btn-none{
-        display: none;
+    .text-in-middle{
+        padding-left: 15px;
     }
     
 }
