@@ -155,14 +155,30 @@ table tr td:not(:nth-child(1)){
     background-color: var(--color-gray);
 }
 
-@media screen and (max-width:768px){
+
+@media screen and (max-width:1400px){
+    #small-logo{
+     display: none; 
+    } 
+ }
+
+@media screen and (max-width:992px){
     #sidebar{
         width: 90px;
     }
+
     #small-logo{
+        display: block;
         width: 60%;
     }
 
+    #big-logo{
+        display: none; 
+    }
+}
+
+@media screen and (max-width:768px){
+    
     .text-right{
         display: flex;
     }
@@ -176,3 +192,6 @@ table tr td:not(:nth-child(1)){
     }
     
 }
+
+
+
